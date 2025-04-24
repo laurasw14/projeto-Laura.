@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+   body {
+    font-family: "Chakra Petch", sans-serif;
+  }
+  h1,
+h2,
+h5 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+footer a {
+    color: var(--cor-principal);
+  }
+footer a:hover {
+    color: var(--cor-destaque);
+  }
+
+    
+    --cor-principal: #033166;
+    --cor-secundaria: #0026fd;
+    --cor-destaque: #99e6fa;
+}
+.lead {
+    color: var(--cor-destaque);
+    font-weight: 700;
+  }
+  body {
+    font-family: "Chakra Petch", sans-serif;
+    color: var(--cor-principal);
+  }
+  .lead,
+.btn-link {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+a,
+.btn-link:hover {
+  color: var(--cor-principal);
+}
+
+a:hover {
+  color: var(--cor-destaque);
+}
+body {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  /* Esconde os botões de radio */
+  input[type="radio"] {
+    display: none;
+  }
+  
+  .botao {
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  /* Muda o fundo com base no botão clicado */
+  #cor1:checked ~ h1 {
+    background-color: lightblue;
+  }
+  #cor2:checked ~ h1 {
+    background-color: pink;
+  }
+  #cor3:checked ~ h1 
+    background-color: lightgreen;
